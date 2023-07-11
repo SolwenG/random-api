@@ -10,28 +10,33 @@
     --color-bg: #fffeff63;
 }
 
-main {
+.quiz {
+    width: 90%;
+    margin: auto;
     text-align: center;
-    align-items: center;
 }
 
-header {
-    margin: 20px;
-    color: #645555;
-    font-size: larger;
+.quiz header {
+    margin: 10px;
+    color: var(--color-brown);
+}
+
+.quiz header hr {
+    margin-top: 5px;
+    border: 1px solid var(--color-canard);
 }
 
 .question {
     border-radius: 2px;
-    box-shadow: 1px 1px 3px #645555;
-    color: #645555;
+    box-shadow: 1px 1px 3px var(--color-brown);
+    color: var(--color-brown);
     width: 500px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
     padding: 20px 40px;
-    background-color: #fffeff63;
-    
+    background-color: var(--color-bg);
+
 }
 
 .answers {
@@ -47,9 +52,9 @@ header {
     align-content: center;
     border-radius: 2px;
     border: none;
-    box-shadow: 1px 1px 3px #645555;
-    color: #645555;
-    background-color: #fffefe63;
+    box-shadow: 1px 1px 3px var(--color-brown);
+    color: var(--color-brown);
+    background-color: var(--color-bg);
     width: 240px;
     height: 60px;
     font-size: 16px;
@@ -59,11 +64,11 @@ header {
     margin-top: 20px;
     width: 200px;
     height: 55px;
-    background-color: #55828bc8;
-    color: #FFFEFF;
+    background-color: var(--color-canard);
+    color: var(--color-white);
     border: none;
     border-radius: 2px;
     font-size: 16px;
-    box-shadow: 1px 1px 3px #645555;
+    box-shadow: 1px 1px 3px var(--color-brown);
     display: none;
 }

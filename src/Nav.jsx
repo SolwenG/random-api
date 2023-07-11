@@ -13,7 +13,12 @@ const Nav = () => {
             <ul>
                 <li>
                     <Link to={'/random-app'}>
-                        <img src="/src/assets/random_user.svg" alt="random-user" />
+                        <img src="/src/assets/random_user.svg" alt="user" />
+                    </Link>
+                </li>
+                <li>
+                    <Link to={'/random-cat'}>
+                        <img src="/src/assets/cat.svg" alt="cat" className="cat" />
                     </Link>
                 </li>
                 <li>

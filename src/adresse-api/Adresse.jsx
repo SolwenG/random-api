@@ -30,7 +30,7 @@ const Adresse = () => {
     }, [ad]);
 
     return (
-        <main>
+        <main className='addresse'>
             <header>
                 <h2>Adresse</h2>
                 <hr />

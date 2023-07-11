@@ -5,11 +5,11 @@ const User = ({ user }) => {
             <div>
                 <img src={user.photo} alt="pfp" />
             </div>
-            <div class="user">
+            <div className="user">
                 <div className='name'>{user.prenom} {user.nom.toUpperCase()}
                     <hr />
                 </div>
-                <div class="infos">
+                <div className="infos">
                     <p>Email: {user.email}</p>
                     <p>Phone: {user.mobile}</p>
                     <p>Rue: {user.rue}</p>

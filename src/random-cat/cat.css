@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    --color-canard: #55828B;
+    --color-white: #FFFEFF;
+    --color-brown: #645555;
+    --color-lightbrown: #b0a3a4;
+}
+
+.cats {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.cats header {
+    margin: 10px;
+    color: var(--color-brown);
+}
+
+.cats header hr {
+    margin-top: 5px;
+    border: 1px solid var(--color-canard);
+}
+
+.cats button {
+    background-color: var(--color-canard);
+    color: var(--color-white);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cats button:hover {
+    transform: scale(.98);
+    transition: scale 0.2s ease;
+}
+
+.cats section {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.cats section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+}

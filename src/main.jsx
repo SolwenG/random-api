@@ -5,6 +5,7 @@ import Adresse from './adresse-api/Adresse'
 import ErrorPage from './error-page'
 import './main.css'
 import Quiz from './quiz-api/Quiz'
+import Cat from './random-cat/Cat'
 import RandomApp from './random-user/RandomApp'
 import Root from './Root'
 
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: "/random-app",
                 element: <RandomApp />,
+            },
+            {
+                path: "/random-cat",
+                element: <Cat />,
             },
             {
                 path: "/adress",

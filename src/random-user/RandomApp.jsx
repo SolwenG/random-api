@@ -25,11 +25,12 @@ const RandomApp = () => {
 
 
     return (
-        <main className="right">
+        <main className="random-app">
             <header>
                 <h2>Random User</h2>
                 <hr />
             </header>
+            
             <section>
                 {users &&
                     users.map((u, i) => <User key={i} user={u}/>)

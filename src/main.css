@@ -13,7 +13,6 @@
 
 :root {
     background-image: url('/src/assets/quiz-bg3.png');
-    backdrop-filter: blur(20px);
     background-size: 100vh 100vh;
     background-position: center;
     background-attachment: fixed;
@@ -22,5 +21,7 @@
 }
 
 .main {
+    backdrop-filter: blur(3px);
     margin-left: 70px;
+    min-height: 100vh;
 }

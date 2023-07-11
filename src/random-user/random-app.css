@@ -10,48 +10,48 @@
     --color-lightbrown: #b0a3a4;
 }
 
-main {
-    width: 200vh;
-    height: 100vh;
+.random-app {
+    width: 90%;
+    margin: auto;
     text-align: center;
 }
 
-header {
+.random-app header {
     margin: 10px;
-    color: #645555;
+    color: var(--color-brown);
 }
 
-header hr {
+.random-app header hr {
     margin-top: 5px;
-    border: 1PX solid #55828B;
+    border: 1px solid var(--color-canard);
 }
 
-section {
+.random-app section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-article {
+.random-app article {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 5px 5px 10px #b0a3a4;
+    box-shadow: 5px 5px 10px var(--color-lightbrown);
     margin: 10px;
     padding: 5px;
 }
 
-article img {
+.random-app article img {
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    box-shadow: 5px 5px 10px #b0a3a4,
-        -10px -10px 20px #ffffff;
+    box-shadow: 5px 5px 10px var(--color-lightbrown),
+        -10px -10px 20px var(--color-white);
 }
 
 .user {
     border-radius: 5px;
     padding: 5px;
-    color: #55828B;
+    color: var(--color-canard);
 }
 
 .name {
@@ -60,7 +60,7 @@ article img {
 }
 
 .name hr {
-    border: 1PX solid #b0a3a4;
+    border: 1PX solid var(--color-lightbrown);
 }
 
 .infos p {

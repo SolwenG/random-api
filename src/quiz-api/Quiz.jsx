@@ -41,7 +41,6 @@ const Quiz = () => {
 
     const reponse = () => {
         prop1.style.backgroundColor = "#85d755a8";
-
         prop2.style.backgroundColor = "#aa2e2e9d";
         prop3.style.backgroundColor = "#aa2e2e9d"
         prop4.style.backgroundColor = "#aa2e2e9d";
@@ -50,7 +49,7 @@ const Quiz = () => {
 
 
     return (
-        <main>
+        <main className='quiz'>
              <header>
                 <h2>Q U I Z</h2>
                 <hr />
