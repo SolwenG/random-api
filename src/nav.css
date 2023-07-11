@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --color-canard: #55828B;
+    --color-white: #FFFEFF;
+    --color-brown: #645555;
+    --color-lightbrown: #b0a3a4;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #55828B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    padding: 10px;
+}

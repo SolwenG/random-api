@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    --color-canard: #55828B;
+    --color-white: #FFFEFF;
+    --color-brown: #645555;
+    --color-lightbrown: #b0a3a4;
+    --color-pink: #E76B74;
+}
+
+:root {
+    background-image: url('/src/assets/quiz-bg3.png');
+    backdrop-filter: blur(20px);
+    background-size: 100vh 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    margin-left: 70px;
+}
