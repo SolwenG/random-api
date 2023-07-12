@@ -22,11 +22,6 @@ const Nav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/adress'}>
-                        <img src="/src/assets/address.svg" alt="adresse" />
-                    </Link>
-                </li>
-                <li>
                     <Link to={'/quiz'}>
                         <img src="/src/assets/quiz.svg" alt="quiz" />
                     </Link>

@@ -12,7 +12,7 @@
 }
 
 :root {
-    background-image: url('/src/assets/quiz-bg3.png');
+    background-image: url('/src/assets/bg.png');
     background-size: 100vh 100vh;
     background-position: center;
     background-attachment: fixed;

@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Adresse from './adresse-api/Adresse'
 import ErrorPage from './error-page'
 import './main.css'
 import Quiz from './quiz-api/Quiz'
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
             {
                 path: "/random-cat",
                 element: <Cat />,
-            },
-            {
-                path: "/adress",
-                element: <Adresse />,
             },
             {
                 path: "/quiz",

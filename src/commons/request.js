@@ -6,7 +6,7 @@
  */
 
 
-const getRequest = async (url, headers = {}) => { //headers parm optionnel car '= {}'
+const getRequest = async (url, headers = {}) => { //headers param optionnel car '= {}'
     const resp = await fetch(url, {
         method: 'GET',
         headers: headers
